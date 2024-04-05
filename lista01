@@ -1,0 +1,240 @@
+
+lista01_202403068_ipynb
+
+*Questão 1 *
+
+leia notas (n1 n2 n3)
+
+x = (n1 n2 n3)/3
+
+se x >= 6.0 imprime ( nota = x APROVADO)
+
+senão imprime ( nota = x REPROVADO)
+
+*Questão 2 * leia(nj)
+
+n = 0
+
+enquanto n < nj
+
+leia(pj, pp, pg, pa, pc)
+
+rt= (ptpp1) + (ptpg1) + (ptpa1) + (ptpc20) imprima(rendaTotal)
+
+n = n+1
+
+*Questão 3 *
+
+leia os números inteiros no intervalo de 0 a 9 (n1 n2 n3)
+
+nI <- (n1n2n3)
+
+se (n1 ou n2 ou n3 >9){ imprima (DÍGITO INVÁLIDO) }
+
+se (n1 ou n2 = 0){ imprima os números seguintes e nI*nI }
+
+senão{ imprima nI e nI*nI }
+
+Questão 4
+
+sálario mínimo <- sm qntd de kw gasto por residência <- kwg
+
+leia (sm e kwg)
+
+ckw = 0.007*sm cc = ckw * kwg cd = 0.9 * cc
+
+imprima (Custo por kW: R$ ckw
+
+Custo do consumo: R$ cc
+
+Custo com desconto: R$ cd)
+
+Questão 5
+
+cc = conta do cliente
+
+cam3 = consumo de agua por metro cúbico
+
+tp = tipo do consumidor
+
+vc = valor da conta
+
+leia (cc , cam3, tp)
+
+se (tp == "r"){ vc = 5 + 0.05 * cam3 }
+
+se (tp == "c"){ se (cam3 <= 80){ vc = 500 } senão{ vc = 500 + 0.25 * (cam3-80) } }
+
+se (tp == "i"0{ se (cam3 <= 100){ vc = 800 } senão{ vc = 800 + 0.04 * (cam3-100) }
+
+imprima (conta = conta do cliente) imprima (VALOR DA CONTA = vc)
+
+Questão 6
+
+leia (n)
+
+i = o
+
+enquanto(i < n)
+
+leia(tF)
+
+crie adicione tF a uma colecao de valores
+
+i = i+
+
+para cada tF dentro da coleção de valores, calcule: (tF-32)*5/9 = c imprima(tF FAHRENHEIT EQUIVALE A c CELSIUS)
+
+Questão 7
+
+leia (tF) leia(cP)
+
+tC = (5tF-160)/9 mm = cP25.4
+
+imprima ( VALOR EM CELSIUS = tC : A QUANTIDADE DE CHUVA E =mm)
+
+Quesão 8 π =3.14159
+
+leia(r) leia(h)
+
+aLata = 2(πrr) + (2πr * h)
+
+pL = aLata *100
+
+imprima(O VALOR DO CUSTO E = pL)\n
+
+Questão 9 leia (a, b, c)
+
+delta = bb-4a*c
+
+imprime(: O VALOR DE DELTA E = delta)\n
+
+Questão 10
+
+leia(a,b,c,d)
+
+det = ad-bc
+
+imprima(O VALOR DO DETERMINANTE E = det)
+
+Questão 11
+
+leia(n)
+
+se n % 3 ==0 e n % 5 ==0: imprima(O NÚMERO É DIVISÍVEL)
+
+senão: imprima(O NÚMERO NÃO E DIVISÍVEL)
+
+questão 12
+
+leia(h)
+
+hA = h % 3 *5
+
+hI = ((h-hA)/3)*10
+
+valorPagamento = hI + hA
+
+imprima(O VALOR A PAGAR E = valorPagamento)\n
+
+Questão 13
+
+leia(n)
+
+se n estiver no intervalo de 9 a 10 imprima (NOTA = n CONCEITO = A)
+
+se n estiver no intervalo de 7.5 a 9 mprima (NOTA = n CONCEITO = b)
+
+se n estiver no intervalo de 6 a 7.5 imprima (NOTA = n CONCEITO = c)
+
+se n estiver no intervalo de 0 a 6 imprima (NOTA = n CONCEITO = d)
+
+Questão 14
+
+leia(h, a)
+
+ab = (3aa*√3)/2
+
+v = ab*h/3
+
+imprima(O VOLUME DA PIRAMIDE E = v METROS CUBICOS)
+
+Questão 15
+
+leia(n)
+
+i = 1
+
+X = 2
+
+enquanto i < n y = x*x
+
+imprima(f" {x}^2 = {y}")
+x = x + 2
+i = i + 2
+Questão 16
+
+leia(sf)
+
+se (sf <= 300 ): sfr = sf * 1.50
+
+senão: sfr = sf * 1.30
+
+imprima(SALARIO COM REAJUSTE = sfr)
+
+*Questão 17 *
+
+leia(x, y)
+
+i=1
+
+se (x % 2 != 0):
+
+imprima(O PRIMEIRO NUMERO NAO E PAR)
+
+senao:
+
+imprima(x)
+enquanto i < y
+
+imprima(x+2)
+
+i = i + 1
+
+x = x + 2
+Questão 18 ?
+
+leia(a1 r n)
+
+para
+
+Questão 19?
+
+leia(n)
+
+k=1
+
+n=2
+
+se n < 1: imprima número inválido
+
+senao: s = 1 + 1/k +s
+
+enquanto i < n
+ p = 1/k+1
+
+  k=k+1
+  i+i+1
+Questão 20
+
+leia(h, m, s)
+
+hs = h * 3600
+
+ms = m * 60
+
+tempoConvertido = hs + ms + s
+
+imprima(O TEMPO EM SEGUNDOS E = tempoConvertido)
+
+Produtos pagos do Colab - Cancelar contratos
