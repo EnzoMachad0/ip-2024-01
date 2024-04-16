@@ -1,29 +1,19 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
 
-	var n, tf int 
+	var n, tf int
 
-	fmt.Scan(&n) 
+	fmt.Scan(&n)
 
-	while i < n; {
-
-	arr := make([]int, n)
 	for i := 0; i < n; i++ {
-		fmt.Scan(&arr[i])
+
+		fmt.Print("digite a temperatura em fahrenheit: ")
+		fmt.Scan(&tf)
+		n = (tf - 32) * 5 / 9
+		fmt.Println("A temperatura em celsius é: ", n)
 	}
-}
-	fmt.Scan(&tf)
-
-
-
-
-
-
-
-
-
 
 }
