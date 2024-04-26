@@ -9,6 +9,10 @@ func main() {
 	fmt.Scan(&cam3)
 	fmt.Scan(&tipoDoConsumidor)
 
+	fmt.Println("Digite o número da conta:")
+	fmt.Println("Digite o consumo:")
+	fmt.Println("Digite o tipo do consumidor:")
+
 	switch tipoDoConsumidor {
 	case "r":
 		valorDaConta = 5 + 0.05*cam3

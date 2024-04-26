@@ -10,7 +10,7 @@ func main() {
 	var h float64
 	fmt.Scan(&h)
 
-	hA = math.Mod(h, 3) * 5
+	hA = math.Mod(h, 3) * 5 // mod mostra o resto da divisao h/3
 
 	hL = ((h - hA) / 3) * 10
 
