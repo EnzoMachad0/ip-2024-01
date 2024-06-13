@@ -37,20 +37,11 @@ func main() {
 }
 
 func algoritimoDeBusca(arr []int, x int) bool {
-	min := 0
-	max := len(arr) - 1
-
-	for min <= max {
-		mid := (min + max) / 2
-
-		if arr[mid] == x {
+	for i := 0; i < len(arr); i++ {
+		if arr[i] == x {
 			return true
-		} else if arr[mid] < x {
-			min = mid + 1
-		} else {
-			max = mid - 1
 		}
 	}
-
 	return false
+
 }
